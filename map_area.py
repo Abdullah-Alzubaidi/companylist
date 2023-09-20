@@ -137,7 +137,7 @@ if df is not None:
             y='CITY',
             orientation='h',
             labels={'CITY': 'City', 'CompanyCount': 'Number of Companies'},
-            title=f'Company Per District'
+            st.title("Company Per District")
             
             title=f'Company Distribution per City in {selected_state}'
             
@@ -163,6 +163,6 @@ if df is not None:
     components.html(p.read(), 1000, 600)
     
     st.plotly_chart(fig)
-    st.title("Company Per District")
+    
 
 #python -m streamlit run map_area.py
