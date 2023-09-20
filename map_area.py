@@ -14,6 +14,8 @@ from streamlit_folium import st_folium
 
 # Import the sidebar function from sidebar.py
 from sidebar import sidebar
+from main import main
+
 
 # 3.16000, 101.71000 : Kuala Lumpur
 
