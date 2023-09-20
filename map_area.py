@@ -137,8 +137,6 @@ if df is not None:
             y='CITY',
             orientation='h',
             labels={'CITY': 'City', 'CompanyCount': 'Number of Companies'},
-            st.title("Company Per District")
-            
             title=f'Company Distribution per City in {selected_state}'
             
         )
