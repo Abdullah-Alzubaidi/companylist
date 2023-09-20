@@ -137,7 +137,10 @@ if df is not None:
             y='CITY',
             orientation='h',
             labels={'CITY': 'City', 'CompanyCount': 'Number of Companies'},
+            title=f'Company Per District'
+            
             title=f'Company Distribution per City in {selected_state}'
+            
         )
     else:
         fig = px.bar(
