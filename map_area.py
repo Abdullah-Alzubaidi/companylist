@@ -107,7 +107,7 @@ if __name__ == '__main__':
     #         marker.add_child(folium.ClickForMarker(popup=update_sidebar))
 
 
-st.title("Company Per District")
+
 
 # Specify the file name
 file_name = "MMU ITP List 13_9_9_11.xlsx"
@@ -158,6 +158,7 @@ if df is not None:
     # p = open('itp_area_map.html')
     p = open('itp_area_map.html', 'r', encoding='utf-8')
     components.html(p.read(), 1000, 600)
+    st.title("Company Per District")
     st.plotly_chart(fig)
 
 
