@@ -5,7 +5,7 @@ import warnings
 import pandas as pd
 import geopandas as gpd
 import folium
-import plotly.express as px
+
 from branca.element import Figure
 from shapely.geometry import Point
 
@@ -15,7 +15,7 @@ from streamlit_folium import st_folium
 
 # Import the sidebar function from sidebar.py
 from sidebar import sidebar
-
+import plotly.express as px
 
 
 # 3.16000, 101.71000 : Kuala Lumpur
