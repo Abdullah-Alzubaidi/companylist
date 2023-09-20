@@ -28,6 +28,7 @@ def read_file(filename, sheetname):
 
 if __name__ == '__main__':
     st.title('Available ITP companies in Malaysia')
+    st.title('Available ITP companies in Malaysia')
     # Call the sidebar function to include it in your app
     sidebar()
     
