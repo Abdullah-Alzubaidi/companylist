@@ -150,7 +150,7 @@ if df is not None:
         )
 
     # Display the plotly figure
-    st.plotly_chart(fig)
+    
     
     text_load_state.text('Plotting ... Done!')
 
@@ -158,6 +158,7 @@ if df is not None:
     # p = open('itp_area_map.html')
     p = open('itp_area_map.html', 'r', encoding='utf-8')
     components.html(p.read(), 1000, 600)
+    st.plotly_chart(fig)
 
 
 #python -m streamlit run map_area.py
