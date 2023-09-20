@@ -1,6 +1,13 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+def main():
+    # st.sidebar.title('Sidebar Title')
+    st.main.title('Company Information')
+    st.main.header('garph Header')
+    st.main.write('This is the graph content.')
+
+    st.empty()
 
 st.title("Company Per District")
 
