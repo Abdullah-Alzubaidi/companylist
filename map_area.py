@@ -14,7 +14,7 @@ from streamlit_folium import st_folium
 
 # Import the sidebar function from sidebar.py
 from sidebar import sidebar
-from main import main
+
 
 
 # 3.16000, 101.71000 : Kuala Lumpur
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     st.title('Available ITP companies in Malaysia')
     # Call the sidebar function to include it in your app
     sidebar()
-    main()
+    
 
     # Create an empty space in the sidebar to display company information
     company_info_container = st.empty()
