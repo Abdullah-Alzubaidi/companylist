@@ -17,7 +17,7 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
-  
+st.markdown(background-color: blue)  
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
 
 # 3.16000, 101.71000 : Kuala Lumpur
