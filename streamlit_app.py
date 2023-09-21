@@ -24,7 +24,8 @@ st.markdown(
         background-color: #f0f0f0;
     }
     </style>
-    """
+    """,
+    unsafe_allow_html=True
 )
 
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
