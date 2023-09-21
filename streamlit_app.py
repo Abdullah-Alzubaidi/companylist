@@ -21,21 +21,10 @@ st.markdown(
     """
     <style>
     body {
-        background-image: url('background.jpg');  
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .logo {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        width: 100px; 
+        background-color: #f0f0f0;
     }
     </style>
-    """,
-    unsafe_allow_html=True
+    """
 )
 
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
