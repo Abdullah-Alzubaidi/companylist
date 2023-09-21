@@ -34,7 +34,7 @@ st.markdown(
         width: 100px; 
     }
     </style>
-    """,
+    """
     unsafe_allow_html=True
 )
 
