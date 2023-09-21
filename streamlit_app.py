@@ -17,6 +17,25 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+    }
+    </style>
+    """
+)
 
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
 
