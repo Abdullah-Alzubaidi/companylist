@@ -17,7 +17,6 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
-st.markdown(color=#f0f0f0)
   
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
 
