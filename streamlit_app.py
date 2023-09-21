@@ -17,27 +17,7 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-image: url('background.png');  
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .logo {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        width: 100px; /* Adjust the width as needed */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
+st.markdown(background-image: url('background.png'),  background-repeat: no-repeat, background-size: cover, background-attachment: fixed)
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200)
 
 # 3.16000, 101.71000 : Kuala Lumpur
