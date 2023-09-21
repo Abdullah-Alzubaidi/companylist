@@ -21,7 +21,7 @@ st.markdown(
     """
     <style>
     body {
-        background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+        background-image: url('background.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
