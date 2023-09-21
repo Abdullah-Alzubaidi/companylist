@@ -17,7 +17,6 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
-# Add CSS for background and logo
 st.markdown(
     """
     <style>
