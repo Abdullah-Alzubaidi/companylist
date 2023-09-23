@@ -161,7 +161,9 @@ if __name__ == '__main__':
     map_my.save('itp_area_map.html')
 
     # Display the HTML file in Streamlit
-    
+    with open('itp_area_map.html', 'r', encoding='utf-8') as map_file:
+    map_html = map_file.read()
+    components.html(map_html, 1000, 600)
 
 
     # for itp_data in itp_list_state.to_dict(orient='records'):
