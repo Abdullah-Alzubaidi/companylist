@@ -19,52 +19,10 @@ from streamlit_folium import st_folium
 from sidebar import sidebar
 import plotly.express as px
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-image: url('background.jpg'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .logo {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        width: 100px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
  
 st.image('mmu-multimedia-university6129.png', use_column_width=False, caption='', width=200, )
 
 # 3.16000, 101.71000 : Kuala Lumpur
-
-def set_background_color(color):
-    """
-    Set the background color of the Streamlit app.
-    
-    Args:
-        color (str): The background color in CSS format (e.g., 'lightblue').
-    """
-    # Generate HTML code to set the background color
-    html_code = f"""
-    <style>
-    body {{
-        background-color: {color};
-    }}
-    </style>
-    """
-    
-    # Apply the HTML code using st.markdown
-    st.markdown(html_code, unsafe_allow_html=True)
-
-# Use the set_background_color function to set the background color
-set_background_color('lightblue')
 
 def read_file(filename, sheetname):
     excel_file = pd.ExcelFile(filename)
